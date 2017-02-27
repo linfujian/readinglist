@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>login your details</title>
+<link rel="stylesheet" th:href="@{/style.css}"></link>
+</head>
+<body>
+<!-- 	<div th:unless="${}">
+		the userName : <a th:text="${loginName}">UserName</a> is not exist or PassWord is wrong! please check and login again!
+	</div> -->
+	
+	<form method="POST">
+		<label>UserName: </label>
+			<input type="text" name="username" size="50"></input><br/>
+		<label>FullName: </label>
+			<input type="text" name="fullname" size="50"></input><br/>
+		<label>PassWord: </label>
+			<input type="password" name="password" size="50"></input><br/>
+		<!-- <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}"/> -->
+		<input type="submit" />
+	</form>
+
+</body>
+</html>
