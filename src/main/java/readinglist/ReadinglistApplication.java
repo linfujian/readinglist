@@ -8,6 +8,6 @@ public class ReadinglistApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(ReadinglistApplication.class, args);
-	}
 	
+	}
 }
